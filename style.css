@@ -1,0 +1,52 @@
+h1 {
+	color: #039BE5;
+	font-family: 'Lora', serif;
+	font-size: 60pt;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+ul {
+	list-style: none;
+	display: flex;
+	background-color: #111;
+	color: #eee;
+	padding: 5px 15px;
+	margin-top: 0;
+}
+a {
+	text-decoration: none;
+	color: #eee;
+}
+a:hover {
+	background: #666;
+	padding: -5px -5px;
+}
+p {
+	color: #000000;
+	font-size: 15pt;
+	text-align: justify;
+}
+
+.content {
+	display: flex;
+    padding: 20px 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.my_photo {
+	width: 300px;
+	border-radius: 15px;
+	float: left;
+	padding-right: 15px;
+}
+.intro {
+	margin: 0 0 0 0;
+    padding-right: 0px;
+}
+
+.headers {
+    padding: 10px 20px;
+    font-size: 14pt;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 5px;
+}
